@@ -1,0 +1,86 @@
+baseURL: http://balaramadurai.github.io/
+title: BioNutra
+subtitle: We Bring Healthy with Electric Food
+languageCode: en-us
+theme: hugo-travelify-theme
+GoogleAnalytics: ''
+canonifyURLs: yes
+params:
+  author: Semba
+  copyright: Copyright
+  custom_css: []
+  custom_js: []
+  date_format: 02 January, 2006
+  disable_mathjax: yes
+  logo: BioNutra-logo-.png
+  privacy:
+    DisqusShortname: example
+    enable: yes
+    facebook_like: yes
+  share:
+    email: yes
+    enable: yes
+    facebook: yes
+    linkedin: yes
+    twitter: yes
+  site_description: We Bring Healthy with Electric Food
+  slider:
+    enable: yes
+    manual: no
+    num_features: 6
+  title_in_logo: yes
+  views:
+    enable: yes
+  widgets:
+    archives: no
+    author: yes
+    categories: yes
+    mailchimp: yes
+    mailchimpform: //balaramadurai.us15.list-manage.com/subscribe/post?u=7f4183fa2fe7abe3dc9f4efad&amp;id=49a3dd3745
+    recent_articles: yes
+    search: yes
+    tag_cloud: yes
+    tags: yes
+menu:
+  main:
+    - name: About
+      url: /about/
+      weight: 10
+    - name: contact
+      url: /contact/
+      weight: 20
+    - name: Contact2
+      parent: contact
+      url: /contact/
+    - name: Contact21
+      parent: Contact2
+      url: /contact/
+      weight: 20
+    - name: cOntact22
+      parent: Contact2
+      url: /contact/
+      weight: 10
+    - name: cOntact3
+      parent: contact
+      url: /contact/
+social:
+  email: bionutra7@gmail.com
+  # facebook: example
+  # flickr: example
+  # github: example
+  instagram: bionutra_7
+  linkedin: example
+  # pinterest: example
+  # rss: Needed
+  # tumblr: example
+  twitter: https://twitter.com/BioNutra7?t=NPwZu8EXWbpk7BRIh1WN5g&s=09
+  # vimeo: example
+  youtube: example
+permalinks:
+  categories: /categories/:slug/
+  tags: /tags/:slug/
+taxonomies:
+  author: author
+  category: categories
+  series: series
+  tag: tags
